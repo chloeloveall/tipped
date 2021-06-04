@@ -24,14 +24,11 @@ body {
 
 h1 {
   text-align: center;
-  text-transform: uppercase;
   background: transparent;
   -webkit-text-stroke: 1px #ffffff;
-	-webkit-text-fill-color: transparent;
   background: linear-gradient(45deg, #54478C, #405893, #2C699A, #187AA1, #048BA8, #0795A6, #099FA3, #0DB39E, #12C799, #16DB93, #83E377, #9EE570, #B9E769);
   animation: gradient 15s ease infinite;
   background-size: 150% 150%;
-  /* background: linear-gradient(45deg, #2C699A, #187AA1, #048BA8, #0795A6, #099FA3, #0DB39E, #12C799, #16DB93, #83E377, #9EE570); */
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
   font-family: 'Poppins', sans-serif;
