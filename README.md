@@ -32,7 +32,7 @@ Day three of #100daysofcode. A responsive, mobile-friendly web application that 
 
 ## Preview
 
-Live preview: [Tip Calculator](https://tipped.vercel.app/)
+Live preview: [Tip Calculator](https://tipped-neon.vercel.app/)
 
 Deployed on [Vercel](https://vercel.com)
 
