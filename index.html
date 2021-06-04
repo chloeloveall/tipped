@@ -18,7 +18,7 @@
           <div class='input-group-prepend'>
             <span class='input-group-text transparent-style'>$</span>
           </div>
-          <input type='number' class='form-control transparent-style' id='bill' aria-describedby='billAmount' placeholder='Enter bill amount' required>
+          <input type='number' value='0' class='form-control transparent-style' id='bill' aria-describedby='billAmount' placeholder='Enter bill amount'>
           <label for='bill' class='form-label'></label>
         </div>
 
@@ -29,7 +29,7 @@
               <output for='percent' id='percentDisplay'>0</output>
             </div>
             <div class='form-group col-sm-9'>
-              <input type='range' min='0' max='100' value='0' class='slider' id='percent' step='1' oninput='outputUpdate(value)' required>
+              <input type='range' min='0' max='100' value='0' class='slider' id='percent' step='1' oninput='outputUpdate(value)'>
             </div>
           </div>
         </div>
@@ -38,7 +38,7 @@
           <div class='input-group-prepend'>
             <span class='input-group-text transparent-style'>Split Bill</span>
           </div>
-          <input type='number' class='form-control transparent-style' id='split' placeholder='Number of People' value='1' min='1' required>
+          <input type='number' class='form-control transparent-style' id='split' placeholder='Number of People' value='1' min='1'>
           <label for='bill' class='form-label'></label>
         </div>
       </form>
@@ -54,14 +54,14 @@
             <div class='col'>
               <div>Tip:</div>
             </div>
-            <div id='tip' class='floated col'></div>
+            <div id='tip' class='floated col'>$ 0</div>
           </div>
   
           <div class='row'>
             <div class='col'>
               <div>Total:</div>
             </div>
-            <div id='total' class='floated col'></div>
+            <div id='total' class='floated col'>$ 0</div>
           </div>
 
           <hr />
@@ -71,7 +71,7 @@
               <div class='blocked'>Tip:</div>
               <small class='blocked'>per person</small>
             </div>
-            <div id='splitTip' class='floated col'></div>
+            <div id='splitTip' class='floated col'>$ 0</div>
           </div>
   
           <div class='row'>
@@ -79,7 +79,7 @@
               <div class='blocked'>Total:</div>
               <small class='blocked'>per person</small>
             </div>
-            <div id='splitTotal' class='floated col'></div>
+            <div id='splitTotal' class='floated col'>$ 0</div>
           </div>
         </div>
       </div>
