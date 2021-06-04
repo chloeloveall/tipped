@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang='en-US'>
+<head>
+  <meta charset='UTF-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css' integrity='sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T' crossorigin='anonymous'>
+  <link href='css/styles.css' rel='stylesheet' type='text/css'>
+  <script src='js/scripts.js'></script>
+  <title>Tipped</title>
+</head>
+<body>
+  <div class='container'>
+    <div class="wrapper">
+      <h1>Tipped</h1>
+      <form id='tipped-form'>
+        <div class='form-group input-group shadow-style'>
+          <div class='input-group-prepend'>
+            <span class='input-group-text transparent-style'>$</span>
+          </div>
+          <input type='number' class='form-control transparent-style' id='bill' aria-describedby='billAmount' placeholder='Enter bill amount' required>
+          <label for='bill' class='form-label'></label>
+        </div>
+
+        <div class='slider-wrapper shadow-style'>
+          <div class='form-row percent-group'>
+            <div class='form-group col-sm-3'>
+              <label for='percent'>Tip %</label>
+              <output for='percent' id='percentDisplay'>0</output>
+            </div>
+            <div class='form-group col-sm-9'>
+              <input type='range' min='0' max='100' value='0' class='slider' id='percent' step='1' oninput='outputUpdate(value)' required>
+            </div>
+          </div>
+        </div>
+
+        <div class='form-group input-group shadow-style'>
+          <div class='input-group-prepend'>
+            <span class='input-group-text transparent-style'>Split Bill</span>
+          </div>
+          <input type='number' class='form-control transparent-style' id='split' placeholder='Number of People' value='1' min='1' required>
+          <label for='bill' class='form-label'></label>
+        </div>
+      </form>
+      
+      <div class='wrap'>
+        <a class='toggle button' href='#example'>Calculate</a>
+        <!-- <button class='button'><a class='toggle' href='#example'>Calculate</a></button> -->
+      </div>
+  
+      <div class='toggle-content' id='example'>
+        <div class='result slider-wrapper'>
+          <div class='row pad-row'>
+            <div class='col'>
+              <div>Tip:</div>
+            </div>
+            <div id='tip' class='floated col'></div>
+          </div>
+  
+          <div class='row'>
+            <div class='col'>
+              <div>Total:</div>
+            </div>
+            <div id='total' class='floated col'></div>
+          </div>
+
+          <hr />
+  
+          <div class='row pad-row'>
+            <div class='col'>
+              <div class='blocked'>Tip:</div>
+              <small class='blocked'>per person</small>
+            </div>
+            <div id='splitTip' class='floated col'></div>
+          </div>
+  
+          <div class='row'>
+            <div class='col'>
+              <div class='blocked'>Total:</div>
+              <small class='blocked'>per person</small>
+            </div>
+            <div id='splitTotal' class='floated col'></div>
+          </div>
+        </div>
+      </div>
+      </div>
+
+    <footer class='copyright'>
+      <p>Copyright &copy; <a href='mailto: chloeloveall@protonmail.com'>Chloe Loveall</a> 2021</p>
+    </footer>
+  </div>
+</body>
+</html>
