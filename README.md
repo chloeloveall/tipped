@@ -5,7 +5,7 @@
 #### By _**Chloe Loveall**_
 <br>
 
-![license](https://img.shields.io/github/license/chloeloveall/tippped?color=blue&style=flat-square) &nbsp; ![top project language](https://img.shields.io/github/languages/top/chloeloveall/tippped?style=flat-square) &nbsp; ![last github commit](https://img.shields.io/github/last-commit/chloeloveall/tippped?style=flat-square) &nbsp; ![github pull requests](https://img.shields.io/github/issues-pr/chloeloveall/tippped?style=flat-square) &nbsp; ![open issues](https://img.shields.io/github/issues-raw/chloeloveall/tippped?style=flat-square) &nbsp; ![github contributors](https://img.shields.io/github/contributors/chloeloveall/tippped?color=brightgreen&style=flat-square) &nbsp; ![vercel deployment status](https://img.shields.io/github/deployments/chloeloveall/tippped/production?label=vercel&logo=vercel)
+![license](https://img.shields.io/github/license/chloeloveall/tipped?color=blue&style=flat-square) &nbsp; ![top project language](https://img.shields.io/github/languages/top/chloeloveall/tipped?style=flat-square) &nbsp; ![last github commit](https://img.shields.io/github/last-commit/chloeloveall/tipped?style=flat-square) &nbsp; ![github pull requests](https://img.shields.io/github/issues-pr/chloeloveall/tipped?style=flat-square) &nbsp; ![open issues](https://img.shields.io/github/issues-raw/chloeloveall/tipped?style=flat-square) &nbsp; ![github contributors](https://img.shields.io/github/contributors/chloeloveall/tipped?color=brightgreen&style=flat-square) &nbsp; ![vercel deployment status](https://img.shields.io/github/deployments/chloeloveall/tipped/production?label=vercel&logo=vercel)
 
 ## Table of Contents
 
@@ -69,17 +69,17 @@ Deployed on [Vercel](https://vercel.com)
 
 #### Clone
 
-* Clone the repository with the following git terminal command: ```$ git clone https://github.com/chloeloveall/tippped.git```
-* Open the project's root directory (```tippped```) in your terminal
+* Clone the repository with the following git terminal command: ```$ git clone https://github.com/chloeloveall/tipped.git```
+* Open the project's root directory (```tipped```) in your terminal
 
 #### Download
 
-* Open the repository on GitHub: [chloeloveall/tippped](https://github.com/chloeloveall/tippped)
+* Open the repository on GitHub: [chloeloveall/tipped](https://github.com/chloeloveall/tipped)
 * Click ```Code``` button and select ```Download ZIP```
 * Open and extract the files
 * Open [VSCode], or your code editor of choice
 * Select ```File>Open...``` and navigate to the unzipped file folder 
-* Select ```tippped``` and click ```open``` to view the project
+* Select ```tipped``` and click ```open``` to view the project
 
 ## Known Bugs
 
@@ -87,7 +87,7 @@ Deployed on [Vercel](https://vercel.com)
 
 ## Issues
 
-* Report issues [here](https://github.com/chloeloveall/tippped/issues) and select the ```New issue``` button for support
+* Report issues [here](https://github.com/chloeloveall/tipped/issues) and select the ```New issue``` button for support
 
 ## Contributing
 
@@ -116,6 +116,6 @@ Contributions are what make the open source community such an amazing place to b
 
 _Chloe Loveall <chloeloveall@protonmail.com>_
 
-![github followers](https://img.shields.io/github/followers/chloeloveall?style=social) &nbsp; ![github forks](https://img.shields.io/github/forks/chloeloveall/tippped?label=Forks&style=social) &nbsp; ![github stars](https://img.shields.io/github/stars/chloeloveall/tippped?style=social)
+![github followers](https://img.shields.io/github/followers/chloeloveall?style=social) &nbsp; ![github forks](https://img.shields.io/github/forks/chloeloveall/tipped?label=Forks&style=social) &nbsp; ![github stars](https://img.shields.io/github/stars/chloeloveall/tipped?style=social)
 
 [Back to Top](#table-of-contents)
